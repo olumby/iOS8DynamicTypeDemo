@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8998F80C1BDFFA3200159B36 /* Launch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8998F80B1BDFFA3200159B36 /* Launch.storyboard */; };
 		FACC8F12197A864F00F057B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACC8F11197A864F00F057B6 /* AppDelegate.swift */; };
 		FACC8F17197A864F00F057B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FACC8F15197A864F00F057B6 /* Main.storyboard */; };
 		FACC8F19197A864F00F057B6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FACC8F18197A864F00F057B6 /* Images.xcassets */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8998F80B1BDFFA3200159B36 /* Launch.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Launch.storyboard; sourceTree = "<group>"; };
 		FACC8F0C197A864F00F057B6 /* iOS8DynamicTypeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS8DynamicTypeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FACC8F10197A864F00F057B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FACC8F11197A864F00F057B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 				FACC8F30197A892A00F057B6 /* Quote.swift */,
 				FACC8F18197A864F00F057B6 /* Images.xcassets */,
 				FACC8F0F197A864F00F057B6 /* Supporting Files */,
+				8998F80B1BDFFA3200159B36 /* Launch.storyboard */,
 			);
 			path = iOS8DynamicTypeDemo;
 			sourceTree = "<group>";
@@ -199,6 +202,7 @@
 			files = (
 				FACC8F17197A864F00F057B6 /* Main.storyboard in Resources */,
 				FACC8F19197A864F00F057B6 /* Images.xcassets in Resources */,
+				8998F80C1BDFFA3200159B36 /* Launch.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,7 +339,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = iOS8DynamicTypeDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.natashatherobot.${PRODUCT_NAME:rfc1034identifier}";
@@ -347,7 +350,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = iOS8DynamicTypeDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.natashatherobot.${PRODUCT_NAME:rfc1034identifier}";
