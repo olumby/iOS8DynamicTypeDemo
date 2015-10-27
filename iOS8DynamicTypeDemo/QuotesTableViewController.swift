@@ -13,7 +13,7 @@ class QuotesTableViewController: UITableViewController {
     let quotes = Quote.allQuotes()
     let quoteCellIdentifier = "QuoteTableViewCell"
     
-    required init(coder aDecoder: NSCoder) {
+    required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         
         NSNotificationCenter.defaultCenter().addObserver(self,
@@ -47,7 +47,7 @@ class QuotesTableViewController: UITableViewController {
     }
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier(quoteCellIdentifier) as QuoteTableViewCell
+        let cell = tableView.dequeueReusableCellWithIdentifier(quoteCellIdentifier) as! QuoteTableViewCell
         
         cell.configure(quote: quotes[indexPath.row])
         

@@ -18,8 +18,7 @@ class QuoteTableViewCell: UITableViewCell {
         
     }
     
-    func configure(#quote: Quote) {
-    
+    func configure(quote quote: Quote) {
         quoteContentLabel.font = UIFont.preferredFontForTextStyle(UIFontTextStyleHeadline)
         
         quoteContentLabel.text = quote.content
